@@ -7,8 +7,8 @@
 $fontBasePrimary: 'Source Sans Pro', Helvetica, Arial, sans-serif;
 
 /* secondary or print font */
-@import url(http://fonts.googleapis.com/css?family=Arvo);
-$fontPrintPrimary: 'Arvo', Times, serif;
+@import url(http://fonts.googleapis.com/css?family=Bitter);
+$fontPrintPrimary: 'Bitter', Times, serif;
 
 /* font for script, cursive, or fancy rendering */
 @import url(http://fonts.googleapis.com/css?family=Lobster);
@@ -27,8 +27,8 @@ $fontMonoPrimary: 'Inconsolata', Courier, monospace;
 $colorLight: #fdfdfd; /*pale white*/
 $colorDark: #27343d; /*dark slate*/
 
-$colorPrimary: #4882ad; /*steel blue*/
-$colorSecondary: #ddd; /*gray*/ 
+$colorPrimary: #222222; /*black-gray*/
+$colorSecondary: #4882ad; /*steel blue*/ 
 $colorHighlightPrimary: #bf9000; /*medium yellow*/
 
 
@@ -253,9 +253,10 @@ p.section-label {
 /*****************************************************************************/
 
 #hero-banner {
-  background: url(../img/hero.jpg) no-repeat center top;
+/*  background: url(../img/hero.jpg) no-repeat center top;
   background-attachment: relative;
   background-position: top center;
+*/
   background-color: $colorPrimary;
   min-height: 600px;
   width: 100%;
@@ -270,7 +271,7 @@ p.section-label {
 }
 
 #hero-banner h1 {
-  font-size: 96px;
+  font-size: 48px;
   padding-top: 32px;
   text-align: center;
   font-weight: 800;
@@ -281,23 +282,21 @@ p.section-label {
 
 @media (max-width: 767px) {
   #hero-banner h1 {
-    font-size: 64px;
+    font-size: 36px;
   }
 }
 
 #hero-banner h2 {
-  padding: 24px;
-  font-size: 48px;
-  text-align: center;
-  font-weight: 400;
-  font-family: $fontFancyPrimary;
-  color: $colorSecondary;
-  background-color: rgba( $colorDark, .8 );
+  font-size: 36px;
+  font-weight: 100;
+  font-family: $fontPrintPrimary;
+  color: $colorLight;
+  text-transform: none;
 }
 
 @media (max-width: 767px) {
   #hero-banner h2 {
-    font-size: 36px;
+    font-size: 30px;
   }
 }
 

@@ -6,7 +6,7 @@
   <div class="row">
   
     <h1 class="text-center text-shadow-dark">{{ site.title }}</h1>
-    <h2>{{ site.tagline }}</h2>
+    <h2 class="text-center text-shadow-dark">{{ site.tagline }}</h2>
 
   </div><!-- /.row -->
   </div><!-- /.container -->
@@ -14,7 +14,9 @@
   <div class="container container-narrow horizontal-padding-small">
   <div class="row">
 
-    <p class="section-label">Hero section: <code>/_includes/sections/hero.html</code>, called from /index.html.</p>
+    <div id="slideshow">
+      <img src="{{ site.baseurl }}/assets/img/slides/bootstrap-responsive.png" class="slide img-responsive" alt="Bootstrap">
+    </div>
 
   </div><!-- /.row -->
   </div><!-- /.container -->
