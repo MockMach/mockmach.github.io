@@ -16,6 +16,7 @@ baseurl: ""
 
 # replace with the domain of the mockup
 url: "http://mockmach.com/"
+repo: "https://github.com/MockMach/mockmach.github.io"
 
 # site favicon
 favicon: "/assets/ico/favicon.png"
