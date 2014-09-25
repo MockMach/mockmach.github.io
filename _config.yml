@@ -15,15 +15,15 @@ tagline: "MockMach: The Mock-up Machine"
 baseurl: ""
 
 # replace with the domain of the mockup
-url: "http://pixlenewt.com/"
+url: "http://mockmach.com/"
 
 # site favicon
 favicon: "/assets/ico/favicon.png"
 
 # usernames
-facebook-username: "dereknutile"
-twitter-username: "dereknutile"
-gootgle-plus-username: "+dereknutile"
+facebook-username: "mockmach"
+twitter-username: "mockmach"
+gootgle-plus-username: "+mockmach"
 
 # analytic settings
 google-analytics: "UA-CODE-GOES-HERE"
