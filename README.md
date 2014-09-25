@@ -1,4 +1,3 @@
-mockmach.github.io
-==================
+# MockMach, the Mockup Machine
 
-MockMach site
+Jekyll site for [http://mockmach.com/](http://mockmach.com/).
