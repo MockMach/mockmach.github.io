@@ -106,7 +106,9 @@ a:visited { color: $colorHighlightPrimary; }
   padding-right: 0px;
 }
 
-.navbar-default .navbar-brand {
+.navbar-default {
+  background-color: $colorPrimary;
+  border-color: $colorPrimary;
 }
 
 .navbar-brand {

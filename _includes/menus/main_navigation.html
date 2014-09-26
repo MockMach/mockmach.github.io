@@ -16,21 +16,10 @@
     <div class="collapse navbar-collapse">
 
       <ul class="nav navbar-nav navbar-right" id="nav-links">
-        <li class="dropdown">
-          <a href="#" class="dropdown-toggle" data-toggle="dropdown">Dropdown <span class="caret"></span></a>
-          <ul class="dropdown-menu" role="menu">
-            <li><a href="#">Action</a></li>
-            <li><a href="#">Another action</a></li>
-            <li><a href="#">Something else here</a></li>
-            <li class="divider"></li>
-            <li class="dropdown-header">Nav header</li>
-            <li><a href="#">Separated link</a></li>
-            <li><a href="#">One more separated link</a></li>
-          </ul>
-        </li>
-
-        <li><a href="{{ site.baseurl }}/404.html">Example 404 Page</a></li>
-        <li{% if page.navbar == 'about' %} class="active"{% endif %}><a href="{{ site.baseurl }}/about">About</a></li>
+        <li{% if page.active == 'download' %} class="active"{% endif %}><a href="{{ site.baseurl }}/download">Download</a></li>
+        <li{% if page.active == 'docs' %} class="active"{% endif %}><a href="{{ site.baseurl }}/docs">Docs</a></li>
+        <li{% if page.active == 'news' %} class="active"{% endif %}><a href="{{ site.baseurl }}/news">News</a></li>
+        <li{% if page.active == 'about' %} class="active"{% endif %}><a href="{{ site.baseurl }}/about">About</a></li>
       </ul><!-- /#nav-links -->
     </div><!--/.nav-collapse -->
 

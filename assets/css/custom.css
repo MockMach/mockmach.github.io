@@ -52,6 +52,8 @@ a:visited { color: #bf9000; }
 /* override to .col class padding */
 .cancel-col-padding { padding-left: 0px; padding-right: 0px; }
 
+.navbar-default { background-color: #222222; border-color: #222222; }
+
 .navbar-brand { font-family: "Lobster"; font-weight: 100; font-size: 26px; }
 
 #nav-links { font-family: "Bitter", Times, serif; font-size: 14px; font-weight: 100; }
