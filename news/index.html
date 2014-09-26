@@ -1,0 +1,35 @@
+---
+layout: default
+title: "News"
+active: "news"
+header: "News"
+---
+
+<section id="news" class="palette">    
+<div id="news-banner">
+
+  <div class="container container-narrow horizontal-padding-medium">
+  <div class="row">
+
+    {% if site.posts %}
+
+    {% for post in site.posts %}
+    {% if post.published %}
+    <p>
+      <a href="{{ post.url }}">{{ post.title }}</a>
+        {% if post.date %}
+          <em>&nbsp;posted on {{ post.date | date_to_string }}</em>
+        {% endif %}
+      </p>
+    {% endif %}
+    {% endfor %}
+
+    {% else %}
+    <p>No Notes</p>
+    {% endif %}
+
+  </div><!-- /.row -->
+  </div><!-- /.container -->
+  
+</div><!-- /#news-banner -->
+</section><!-- /#news -->
