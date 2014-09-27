@@ -26,6 +26,7 @@ $fontMonoPrimary: 'Inconsolata', Courier, monospace;
 /* base white or black colors or variants */
 $colorLight: #fdfdfd; /*pale white*/
 $colorDark: #27343d; /*dark slate*/
+$colorBlack: #001;
 
 $colorPrimary: #222222; /*black-gray*/
 $colorSecondary: #4882ad; /*steel blue*/ 
@@ -399,7 +400,7 @@ p.section-label {
 }
 
 .text-shadow-dark {
-  text-shadow: 1px 1px 1px $colorDark;
+  text-shadow: 1px 1px 1px $colorBlack;
 }
 
 .text-shadow-primary {
@@ -440,8 +441,25 @@ p.section-label {
  background-color: rgba( $colorHighlightPrimary, .8 ); 
 }
 
-.animateOnScroll {
-  display: none;
+.square-dark {
+  text-align: center;
+  vertical-align: middle;
+  right: 0;
+  width: 150px;
+  height: 150px;
+  line-height: 150px;
+  font-size: 96px;
+  background-color: $colorHighlightPrimary;
+}
+
+@media (max-width: 767px) {
+
+  .square-dark {
+    width: 96px;
+    height: 96px;
+    line-height: 96px;
+    font-size: 64px;
+  }
 }
 
 

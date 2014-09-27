@@ -152,7 +152,7 @@ p.section-label { padding: 8px; font-size: 12px; text-align: center; font-family
 
 .text-primary { color: #222222; }
 
-.text-shadow-dark { text-shadow: 1px 1px 1px #27343d; }
+.text-shadow-dark { text-shadow: 1px 1px 1px #000011; }
 
 .text-shadow-primary { text-shadow: 1px 1px 1px #222222; }
 
@@ -172,8 +172,9 @@ p.section-label { padding: 8px; font-size: 12px; text-align: center; font-family
 
 .hover-div:hover { transition: background-color 0.8s ease; background-color: rgba(191, 144, 0, 0.8); }
 
-.animateOnScroll { display: none; }
+.square-dark { text-align: center; vertical-align: middle; right: 0; width: 150px; height: 150px; line-height: 150px; font-size: 96px; background-color: #bf9000; }
 
+@media (max-width: 767px) { .square-dark { width: 96px; height: 96px; line-height: 96px; font-size: 64px; } }
 /*****************************************************************************/
 /* common responsive settings
 /*****************************************************************************/
