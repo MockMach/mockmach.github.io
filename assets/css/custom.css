@@ -170,6 +170,8 @@ p.section-label { padding: 8px; font-size: 12px; text-align: center; font-family
 
 .hover-div:hover { transition: background-color 0.8s ease; background-color: rgba(191, 144, 0, 0.8); }
 
+.animateOnScroll { display: none; }
+
 /*****************************************************************************/
 /* common responsive settings
 /*****************************************************************************/
