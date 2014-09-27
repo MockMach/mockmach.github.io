@@ -110,6 +110,8 @@ p.section-label { padding: 8px; font-size: 12px; text-align: center; font-family
 
 .horizontal-padding-medium { padding: 24px 0 24px 0; }
 
+.horizontal-padding-extra-large { padding: 96px 0 96px 0; }
+
 .horizontal-padding-large { padding: 64px 0 64px 0; }
 
 .horizontal-padding-top-large { padding-top: 64px; }
