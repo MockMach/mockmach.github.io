@@ -5,7 +5,7 @@ title: "MockMach"
 email: hello@pixlenewt.com
 
 # brief description for the site
-description: "MockMach is a Jekyll application that can by used to easily create website mockups for clients."
+description: "MockMach is a light framework that can by used to easily create website mockups for clients."
 
 # one line short description for the site
 tagline: "The Mock-up Machine"
