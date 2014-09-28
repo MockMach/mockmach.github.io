@@ -27,7 +27,7 @@ twitter-username: "mockmach"
 gootgle-plus-username: "+mockmach"
 
 # analytic settings
-google-analytics: "UA-CODE-GOES-HERE"
+google-analytics: "UA-55205759-1"
 
 # Jekyll build settings
 markdown: kramdown
