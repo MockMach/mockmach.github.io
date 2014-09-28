@@ -31,6 +31,8 @@ body.body-navbar-padding { /* bump for Bootstrap menu  navigation */ padding-top
 
 p, ul, ol { font-size: 20px; font-family: "Source Sans Pro", Helvetica, Arial, sans-serif; line-height: 24px; }
 
+code { font-size: 16px; font-family: "Inconsolata", Courier, monospace; background-color: #959595; color: #222222; padding: 4px; border-radius: 0px; }
+
 /* links */
 a { color: #bf9000; }
 
@@ -58,10 +60,12 @@ a:visited { color: #bf9000; }
 
 #nav-links { font-family: "Bitter", Times, serif; font-size: 14px; font-weight: 100; }
 
+.btn { padding: 6px 12px; font-size: 18px; border-radius: 0px; }
+
 /*****************************************************************************/
 /* footer
 /*****************************************************************************/
-footer { background-color: #222222; min-height: 150px; width: 100%; -webkit-background-size: 100%; -moz-background-size: 100%; -o-background-size: 100%; background-size: 100%; -webkit-background-size: cover; -moz-background-size: cover; -o-background-size: cover; background-size: cover; padding: 64px 0 48px; color: #fdfdfd; }
+footer { background-color: #222222; min-height: 450px; width: 100%; padding: 64px 0 48px; color: #fdfdfd; }
 
 footer p, footer ul, footer ol, footer address { font-size: 12px; line-height: 18px; }
 
