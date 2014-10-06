@@ -1,6 +1,9 @@
 # MockMach -- sounds like mäk mäk (which rhymes with what a chiken would say)
 title: "MockMach"
 
+# current version
+version: "0.2.0"
+
 # replace with the mockups main email address
 email: hello@pixlenewt.com
 
