@@ -2,8 +2,7 @@
 layout: default
 title: "About"
 active: "about"
-header: "About Page"
-subheader: "About Us"
+header: "About"
 ---
 
 <section id="about" class="palette">    
@@ -12,8 +11,27 @@ subheader: "About Us"
   <div class="container container-narrow horizontal-padding-medium">
   <div class="row">
 
-    <h2>{{ site.title }}</h2>
-    <h3>{{ site.description }}</h3>
+    <h1>About {{ site.title }}</h1>
+    <p>{{ site.title }} is a <a href="http://jekyllrb.com/" target="_blank">Jekyll</a> based application built for a pragmatic purpose.  Why Jekyll?  Because in the end, your web application is HTML, and Jekyll does a great job of generating your HTML from simple markup.  Jekyll has the side benefit of being the engine that host <a href="http://pages.github.com/" target="_blank">Github pages</a>, so you can host your mock-ups online, for free.</p>
+
+    <h1>Methodology</h1>
+    <p>The core purpose of {{ site.title }} is to allow developers and designers an elegant way to present working websites to clients.</p>
+    <p>The main goals of MockMach are to:</p>
+    <ul>
+      <li>create fully interactive, working HTML mock-ups</li>
+      <li>easily drop in or remove html sections and blocks</li>
+      <li>leverage existing tools and frameworks</li>
+      <li>deployable to a free hosting environment</li>
+    </ul>
+
+    <h1>Future</h1>
+    <p>{{ site.title }} was created by me, <a href="http://dereknutile.com/" target="_blank">Derek Nutile</a>, for my own evil purposes.  To that end, I have only added the functionality I need.  Here are some future items I would like to build in:</p>
+    <ul>
+      <li>expand beyond Bootstrap</li>
+      <li>create a bucket of template layouts and sections for easy drop-in</li>
+      <li>review and document the upgrade process with Jekyll</li>
+      <li>...more to come</li>
+    </ul>
 
   </div><!-- /.row -->
   </div><!-- /.container -->
