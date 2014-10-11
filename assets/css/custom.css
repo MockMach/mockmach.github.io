@@ -6,7 +6,7 @@
 /* secondary or print font */
 @import url(http://fonts.googleapis.com/css?family=Bitter);
 /* font for script, cursive, or fancy rendering */
-@import url(http://fonts.googleapis.com/css?family=Lobster);
+@import url(http://fonts.googleapis.com/css?family=Courgette);
 /* technical, typewriter, monospace font typically used for pre or code tags */
 @import url(http://fonts.googleapis.com/css?family=Inconsolata);
 /* ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ */
@@ -56,7 +56,7 @@ a:visited { color: #bf9000; }
 
 .navbar-default { background-color: #222222; border-color: #222222; }
 
-.navbar-brand { font-family: "Lobster"; font-weight: 100; font-size: 26px; }
+.navbar-brand { font-family: "Courgette"; font-weight: 100; font-size: 26px; }
 
 #nav-links { font-family: "Bitter", Times, serif; font-size: 14px; font-weight: 100; }
 
@@ -82,10 +82,10 @@ footer p, footer ul, footer ol, footer address { font-size: 12px; line-height: 1
 /*****************************************************************************/
 /* palettes
 /*****************************************************************************/
-.palette h2 { font-size: 48px; font-weight: 100; }
+.palette h2 { font-size: 48px; line-height: 64px; font-weight: 100; }
 
-@media (max-width: 767px) { .palette h2 { font-size: 36px; font-weight: 100; } }
-.palette h3 { font-size: 30px; font-weight: 100; }
+@media (max-width: 767px) { .palette h2 { font-size: 36px; line-height: 48px; font-weight: 100; } }
+.palette h3 { font-size: 30px; line-height: 36px; font-weight: 400; font-family: "Inconsolata", Courier, monospace; }
 
 /*****************************************************************************/
 /* sections
@@ -166,7 +166,7 @@ p.section-label { padding: 8px; font-size: 12px; text-align: center; font-family
 
 .text-shadow-light { text-shadow: 1px 1px 1px #fdfdfd; }
 
-.font-fancy { font-family: "Lobster"; }
+.font-fancy { font-family: "Courgette"; }
 
 .font-print { font-family: "Bitter", Times, serif; }
 

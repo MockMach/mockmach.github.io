@@ -11,8 +11,8 @@ $fontBasePrimary: 'Source Sans Pro', Helvetica, Arial, sans-serif;
 $fontPrintPrimary: 'Bitter', Times, serif;
 
 /* font for script, cursive, or fancy rendering */
-@import url(http://fonts.googleapis.com/css?family=Lobster);
-$fontFancyPrimary: 'Lobster';
+@import url(http://fonts.googleapis.com/css?family=Courgette);
+$fontFancyPrimary: 'Courgette';
 
 /* technical, typewriter, monospace font typically used for pre or code tags */
 @import url(http://fonts.googleapis.com/css?family=Inconsolata);
@@ -203,6 +203,7 @@ footer p, footer ul, footer ol, footer address {
 
 .palette h2 {
   font-size: 48px;
+  line-height: 64px;
   font-weight: 100;
 }
 
@@ -210,13 +211,16 @@ footer p, footer ul, footer ol, footer address {
 
   .palette h2 {
     font-size: 36px;
+    line-height: 48px;
     font-weight: 100;
   }
 }
 
 .palette h3 {
   font-size: 30px;
-  font-weight: 100;
+  line-height: 36px;
+  font-weight: 400;
+  font-family: $fontMonoPrimary;
 }
 
 
