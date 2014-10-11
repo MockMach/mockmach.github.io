@@ -157,6 +157,10 @@ a:visited { color: $colorHighlightPrimary; }
   border-radius: 0px;
 }
 
+.affix {
+  position: fixed;
+  top: 60px;
+}
 
 /*****************************************************************************/
 /* footer
