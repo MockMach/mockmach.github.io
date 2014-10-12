@@ -29,7 +29,7 @@ body { font-family: "Source Sans Pro", Helvetica, Arial, sans-serif; }
 
 body.body-navbar-padding { /* bump for Bootstrap menu  navigation */ padding-top: 40px; }
 
-p, ul, ol { font-size: 20px; font-family: "Source Sans Pro", Helvetica, Arial, sans-serif; line-height: 24px; }
+p, ul, ol { font-size: 20px; font-family: "Source Sans Pro", Helvetica, Arial, sans-serif; line-height: 28px; }
 
 code { font-size: 16px; font-family: "Inconsolata", Courier, monospace; background-color: #959595; color: #222222; padding: 4px; border-radius: 0px; }
 
