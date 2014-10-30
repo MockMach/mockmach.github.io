@@ -1,15 +1,31 @@
 ---
 layout: default
+title: Note
+active: blog
 ---
-<div class="post">
 
-  <header class="post-header">
-    <h1>{{ page.title }}</h1>
-    <p class="meta">{{ page.date | date: "%b %-d, %Y" }}{% if page.author %} • {{ page.author }}{% endif %}{% if page.meta %} • {{ page.meta }}{% endif %}</p>
-  </header>
+<section id="toolbox" class="palette horizontal-padding-small background-slate-lighten-65">
+<div id="toolbox-banner">
 
-  <article class="post-content">
-  {{ content }}
-  </article>
+    <div class="container container-narrow horizontal-padding-small">
+    <div class="row">
+        <a href="{{ site.baseurl }}/blog" class="button"><i class="fa fa-arrow-left"></i> All Posts</a>
+    </div><!-- /.row -->
+    </div><!-- /.container -->
 
-</div>
+</div><!-- /#toolbox-banner -->
+</section><!-- /#toolbox -->
+
+<section id="post" class="palette background-bright">
+<div id="post-banner">
+
+    <div class="container horizontal-padding-large container-narrow">
+    <div class="row">
+        <h5 class="posted-date">Posted on {{ page.date | date: "%B %-d, %Y" }}</h5>
+        {{ content }}
+        
+    </div><!-- /.row -->
+    </div><!-- /.container -->
+
+</div><!-- /#post-banner -->
+</section><!-- /#post -->
