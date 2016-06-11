@@ -1,18 +1,24 @@
+/*
+sass assets/scss/custom.scss:assets/css/custom.min.css --style compressed
+sass assets/scss/custom.scss:assets/css/custom.css --style compact
+*/
+
 /* ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ */
 /* fonts
 /* ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ */
 
 /* common or base font */
-@import url(http://fonts.googleapis.com/css?family=Source+Sans+Pro);
-$fontBasePrimary: 'Source Sans Pro', Helvetica, Arial, sans-serif;
+/*sans serif*/
+@import url(https://fonts.googleapis.com/css?family=Ubuntu:400,300,700|Abel);
+$fontBasePrimary: 'Abel', Helvetica, Arial, sans-serif;
 
 /* secondary or print font */
-@import url(http://fonts.googleapis.com/css?family=Bitter);
+@import url(https://fonts.googleapis.com/css?family=Bitter:400,400italic,700);
 $fontPrintPrimary: 'Bitter', Times, serif;
 
 /* font for script, cursive, or fancy rendering */
-@import url(http://fonts.googleapis.com/css?family=Courgette);
-$fontFancyPrimary: 'Courgette';
+// @import url(https://fonts.googleapis.com/css?family=Pacifico);
+$fontFancyPrimary: 'Handlee', cursive;
 
 /* technical, typewriter, monospace font typically used for pre or code tags */
 @import url(http://fonts.googleapis.com/css?family=Inconsolata);
@@ -29,7 +35,7 @@ $colorDark: #27343d; /*dark slate*/
 $colorBlack: #001;
 
 $colorPrimary: #222222; /*black-gray*/
-$colorSecondary: #4882ad; /*steel blue*/ 
+$colorSecondary: #4882ad; /*steel blue*/
 $colorHighlightPrimary: #bf9000; /*medium yellow*/
 
 
@@ -50,7 +56,7 @@ body {
 
 body.body-navbar-padding {
   /* bump for Bootstrap menu  navigation */
-   padding-top: 40px;   
+   padding-top: 40px;
 }
 
 h1, h2, h3, h4, h5, h6 {
@@ -170,13 +176,12 @@ footer {
   background-color: $colorPrimary;
   min-height: 450px;
   width: 100%;
-  padding: 64px 0 48px;
   color: $colorLight;
 }
 
 footer p, footer ul, footer ol, footer address {
-  font-size: 12px;
-  line-height: 18px;
+  font-size: 1.25em;
+  line-height: 1.5em;
 }
 
 #footer a {
@@ -317,24 +322,25 @@ p.section-label {
 /* overrides
 /*****************************************************************************/
 
+
 .horizontal-padding-small {
-  padding: 8px 0 8px 0;
+  padding: 1em 0 1em 0;
 }
 
 .horizontal-padding-medium {
-  padding: 24px 0 24px 0;
-}
-
-.horizontal-padding-extra-large {
-  padding: 96px 0 96px 0;
+  padding: 3em 0 3em 0;
 }
 
 .horizontal-padding-large {
-  padding: 64px 0 64px 0;
+  padding: 6em 0 6em 0;
 }
 
 .horizontal-padding-top-large {
-  padding-top: 64px;
+  padding-top: 6em;
+}
+
+.horizontal-padding-extra-large {
+  padding: 8em 0 8em 0;
 }
 
 .background-translucent {
@@ -459,7 +465,7 @@ p.section-label {
 
 .hover-div:hover {
  transition: background-color 0.8s ease;
- background-color: rgba( $colorHighlightPrimary, .5 ); 
+ background-color: rgba( $colorHighlightPrimary, .5 );
 }
 
 .square-dark {
