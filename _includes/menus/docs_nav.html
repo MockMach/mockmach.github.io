@@ -1,10 +1,14 @@
 
 <ul class="nav nav-stacked">
-    <li>
-      <a href="{{ site.baseurl }}/docs" class="{% if page.subheader == "Overview" %} active{% endif %}">Overview</a>
+    <li{% if page.subheader == "Overview" %} class="active"{% endif %}>
+        <a href="{{ site.baseurl }}/docs"><i class="fa fa-puzzle-piece"></i>&nbsp;Overview</a>
     </li>
-    
-    <li>
-      <a href="{{ site.baseurl }}/docs/install" class="{% if page.subheader == "Installation" %} active{% endif %}">Installation</a>
+
+    <li{% if page.subheader == "Structure" %} class="active"{% endif %}>
+        <a href="{{ site.baseurl }}/docs/structure"><i class="fa fa-cubes"></i>&nbsp;Structure</a>
+    </li>
+
+    <li{% if page.subheader == "Installation" %} class="active"{% endif %}>
+        <a href="{{ site.baseurl }}/docs/install"><i class="fa fa-cogs"></i>&nbsp;Installation</a>
     </li>
 </ul>
