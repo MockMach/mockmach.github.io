@@ -1,27 +1,23 @@
 
-<!-- main navigation -->
 <div class="navbar navbar-default navbar-fixed-top" role="navigation">
-  <div class="container">
+    <div class="container">
 
     <div class="navbar-header">
-      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
-        <span class="sr-only">Toggle navigation</span>
-        <span class="icon-bar"></span>
-        <span class="icon-bar"></span>
-        <span class="icon-bar"></span>
-      </button>
-      <a class="navbar-brand" href="{{ site.baseurl }}/">{{ site.title }}</a>
+        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+            <span class="sr-only">Toggle navigation</span>
+            <span><i class="fa fa-long-arrow-down"></i></span>
+        </button>
+        <a class="navbar-brand" href="{{ site.baseurl }}/">{{ site.title }}</a>
     </div><!-- ./navbar-header -->
 
     <div class="collapse navbar-collapse">
-
-      <ul class="nav navbar-nav navbar-right" id="nav-links">
-        <li{% if page.active == 'download' %} class="active"{% endif %}><a href="{{ site.zipfile }}" target="_blank">Download <span class="badge">v.{{ site.version }}</span></a></li>
-        <li{% if page.active == 'docs' %} class="active"{% endif %}><a href="{{ site.baseurl }}/docs">Documentation</a></li>
-        <li{% if page.active == 'news' %} class="active"{% endif %}><a href="{{ site.baseurl }}/news">News</a></li>
-        <li{% if page.active == 'about' %} class="active"{% endif %}><a href="{{ site.baseurl }}/about">About</a></li>
-      </ul><!-- /#nav-links -->
+        <ul class="nav navbar-nav navbar-right" id="nav-links">
+            <li{% if page.active == 'download' %} class="active"{% endif %}><a href="{{ site.zipfile }}" target="_blank"><i class="fa fa-cloud-download"></i>&nbsp;Download <span class="badge">v.{{ site.version }}</span></a></li>
+            <li{% if page.active == 'docs' %} class="active"{% endif %}><a href="{{ site.baseurl }}/docs"><i class="fa fa-book"></i>&nbsp;Documentation</a></li>
+            <li{% if page.active == 'news' %} class="active"{% endif %}><a href="{{ site.baseurl }}/news"><i class="fa fa-newspaper-o"></i>&nbsp;News</a></li>
+            <li{% if page.active == 'about' %} class="active"{% endif %}><a href="{{ site.baseurl }}/about"><i class="fa fa-info-circle"></i>&nbsp;About</a></li>
+        </ul><!-- /#nav-links -->
     </div><!--/.nav-collapse -->
 
-  </div><!-- .container -->
-</div>
+    </div><!-- .container -->
+</div><!-- /.navbar -->
