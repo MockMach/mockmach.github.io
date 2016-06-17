@@ -1,6 +1,5 @@
 /*
 sass assets/scss/custom.scss:assets/css/custom.min.css --style compressed
-sass assets/scss/custom.scss:assets/css/custom.css --style compact
 */
 
 /* ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ */
@@ -122,8 +121,21 @@ a:visited { color: $colorHighlightPrimary; }
   padding-right: 0px;
 }
 
+.navbar-default .navbar-nav>li>a {
+    color: darken( $colorLight, 12% );
+}
+
+.navbar-default .navbar-nav>li>a:focus, .navbar-default .navbar-nav>li>a:hover {
+    color: $colorPrimary;
+    background-color: darken( $colorLight, 22% );
+}
+
+.navbar-default .navbar-brand {
+    color: $colorLight;
+}
+
 .navbar-default {
-  background-color: $colorPrimary;
+  background-color: lighten( $colorPrimary, 8% );
   border-color: transparent;
   border: none;
 }
