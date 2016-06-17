@@ -124,7 +124,8 @@ a:visited { color: $colorHighlightPrimary; }
 
 .navbar-default {
   background-color: $colorPrimary;
-  border-color: $colorPrimary;
+  border-color: transparent;
+  border: none;
 }
 
 .navbar-brand {
