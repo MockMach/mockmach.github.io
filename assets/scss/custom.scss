@@ -150,6 +150,15 @@ a:visited { color: $colorHighlightPrimary; }
     background: darken( $colorLight, 12% );
 }
 
+.navbar-default .navbar-toggle {
+    border-color: none;
+    background: $colorLight;
+}
+
+.navbar-toggle {
+    border-radius: 0px;
+}
+
 #nav-links {
   font-family: $fontPrintPrimary;
   font-size: 14px;
