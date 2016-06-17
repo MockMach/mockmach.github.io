@@ -146,6 +146,10 @@ a:visited { color: $colorHighlightPrimary; }
   font-size: 26px;
 }
 
+.nav-stacked > li.active {
+    background: darken( $colorLight, 12% );
+}
+
 #nav-links {
   font-family: $fontPrintPrimary;
   font-size: 14px;
