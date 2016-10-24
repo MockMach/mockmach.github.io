@@ -16,8 +16,8 @@ $fontBasePrimary: 'Abel', Helvetica, Arial, sans-serif;
 $fontPrintPrimary: 'Bitter', Times, serif;
 
 /* font for script, cursive, or fancy rendering */
-// @import url(https://fonts.googleapis.com/css?family=Pacifico);
-$fontFancyPrimary: 'Handlee', cursive;
+// @import url(https://fonts.googleapis.com/css?family=Proza+Libre);
+$fontFancyPrimary: 'Proza Libre', sans-serif;
 
 /* technical, typewriter, monospace font typically used for pre or code tags */
 @import url(http://fonts.googleapis.com/css?family=Inconsolata);
@@ -81,6 +81,15 @@ a { color: $colorHighlightPrimary; }
 a:hover { color: $colorHighlightPrimary; }
 a:visited { color: $colorHighlightPrimary; }
 
+dl {
+    font-size: 16px;
+    line-height: 20px;
+    padding: 1em;
+}
+
+dd {
+    padding-bottom: 1em;;
+}
 
 /* ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ */
 /* Bootstrap overrides
@@ -146,8 +155,26 @@ a:visited { color: $colorHighlightPrimary; }
   font-size: 26px;
 }
 
+.navbar-default .navbar-brand:focus, .navbar-default .navbar-brand:hover {
+    transition: color 1.2s ease;
+    color: lighten( $colorHighlightPrimary, 12% );
+    background-color: transparent;
+}
+
+.nav-stacked > li > a:focus, .nav-stacked > li > a:hover {
+    transition: background-color 0.8s ease;
+    background-color: darken( $colorLight, 4% );
+    border-right: 4px solid darken( $colorLight, 44% );
+}
+
 .nav-stacked > li.active {
-    background: darken( $colorLight, 12% );
+    background-color: darken( $colorLight, 12% );
+    border-right: 4px solid darken( $colorLight, 44% );
+}
+
+.nav-stacked > li.active:hover {
+    background-color: darken( $colorLight, 12% );
+    border-right: none;
 }
 
 .navbar-default .navbar-toggle {
