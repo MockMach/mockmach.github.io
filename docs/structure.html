@@ -18,8 +18,18 @@ subheader: "Structure"
 
                 <section id="layouts" class="palette horizontal-padding-small" name="layouts">
                     <h3>Layouts</h3>
-                    <p>Simple description of this section</p>
-                    <p><a href="layouts">Link to layouts</a></p>
+                    <p>Layouts are a Jekyll concept that wraps your pages in common HTML templates.  Each page must reference a layout using <a href="https://jekyllrb.com/docs/frontmatter/" target="_blank">Jekyll frontmatter</a>.</p>
+                    <h4>Mockmach Specific Layouts</h4>
+                    <dl>
+                        <dt>_layouts/landing.html</dt>
+                            <dd>The landing layout is a full width page without a top navigation or footer.</dd>
+                        <dt>_layouts/default.html</dt>
+                            <dd>The default layout includes a full width copy area with a top nav and footer.</dd>
+                        <dt>_layouts/page.html</dt>
+                            <dd>A page layout inherits the default layout but creates a header block for the post title and a post copy or content specific area.</dd>
+                        <dt>_layouts/post.html</dt>
+                            <dd>The post layout is specific to blog entries.  It inherits the default layout and wraps blog entries in sections with post information.</dd>
+                    </dl>
                 </section><!-- /#layouts -->
 
                 <section id="sections" class="palette horizontal-padding-small" name="sections">
